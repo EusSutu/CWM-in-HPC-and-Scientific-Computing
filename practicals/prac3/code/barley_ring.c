@@ -1,10 +1,10 @@
-/**************************************************
- *                                                *
- * First attempt at a code to calcule lost barley *
- * by A. Farmer                                   *
- * 18/05/18                                       *
- *                                                *
- **************************************************/
+/***************************************************
+ *                                                 *
+ * Second attempt at a code to calcule lost barley *
+ * by A. Farmer                                    *
+ * 18/05/18                                        *
+ *                                                 *
+ ***************************************************/
 
 // Include any headers from the C standard library here
 #include <stdio.h>
@@ -14,14 +14,14 @@
 #define PI 3.14159
 
 // This is where I should put my function prototypes
-float area_of_circle(float radius); 
+float circumference_of_circle(float radius); 
 
 // Now I start my code with main()
 int main() {
 
     // In here I need to delare my variables
     int no_of_radii, i;
-    float *radii,*areas;
+    float *radii,*circ;
     float total_area,loss_in_kg;
 
     // Next I need to get input from the user.
@@ -75,11 +75,10 @@ int main() {
 // I'll put my functions here:
 
 
-float area_of_circle(float r)
+float circumference_of_circle(float r)
 {
     //Function calculating area of a circle given radius.
-    float area;
-    area = PI * r * r;
-    return area;
+    float circ;
+    area = PI * 2.0 * r;
+    return circ;
 }
-

@@ -9,6 +9,6 @@
 module purge
 module load gcc/4.9.2
 
-export OMP_NUM_THREADS=1
+export OMP_NUM_THREADS=2
 
 ./integral_omp < integral.inp

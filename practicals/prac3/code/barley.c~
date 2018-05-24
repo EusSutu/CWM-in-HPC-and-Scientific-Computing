@@ -21,7 +21,7 @@ int main() {
 
     // In here I need to delare my variables
     int no_of_radii, i;
-    float *radii,*areas;
+    float * radii,areas;
     float total_area,loss_in_kg;
 
     // Next I need to get input from the user.
